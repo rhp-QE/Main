@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/root/home/Main/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+CHUNK	Alloc/myalloc1/myalloc1.h	/^    const int CHUNK = 20; \/\/ 每次分配的大小$/;"	m	class:myAllocator1	typeref:typename:const int
+DECLARE_MYALLOCATOR1	Alloc/myalloc1/myalloc1.h	/^#define DECLARE_MYALLOCATOR1(/;"	d
+IMPLEMENT_MYALLOCATOR1	Alloc/myalloc1/myalloc1.h	/^#define IMPLEMENT_MYALLOCATOR1(/;"	d
+Main	README.md	/^# Main/;"	c
+_MYALLOC1_	Alloc/myalloc1/myalloc1.h	/^#define _MYALLOC1_$/;"	d
+allocate	Alloc/myalloc1/myalloc1.h	/^void* myAllocator1::allocate(size_t size)$/;"	f	class:myAllocator1	typeref:typename:void *
+deallocate	Alloc/myalloc1/myalloc1.h	/^void myAllocator1::deallocate(void* ptr)$/;"	f	class:myAllocator1	typeref:typename:void
+freeList	Alloc/myalloc1/myalloc1.h	/^    obj* freeList;        \/\/ 自由链表$/;"	m	class:myAllocator1	typeref:typename:obj *
+main	Alloc/myalloc1/test.cpp	/^int main()$/;"	f	typeref:typename:int
+myAllocator1	Alloc/myalloc1/myalloc1.h	/^class myAllocator1 {$/;"	c
+next	Alloc/myalloc1/myalloc1.h	/^        obj* next;$/;"	m	struct:myAllocator1::obj	typeref:typename:obj *
+node	Alloc/myalloc1/test.cpp	/^class node {$/;"	c	file:
+obj	Alloc/myalloc1/myalloc1.h	/^    struct obj {$/;"	s	class:myAllocator1
+val	Alloc/myalloc1/test.cpp	/^    int val = 1;$/;"	m	class:node	typeref:typename:int	file:
